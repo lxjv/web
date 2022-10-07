@@ -1,0 +1,9 @@
+{
+    "redirects": [
+        {
+            "source": "/links",
+            "destination": "https://laker.omg.lol",
+            "permanent": true
+        }
+    ]
+}
