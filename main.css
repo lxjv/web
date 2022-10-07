@@ -10,23 +10,10 @@ main {
     backdrop-filter: blur(10px);
     
     border-radius: 1em;
+
+    font-size: 175%;
     
     padding: 0.1em 1em 1em 1em;
     margin: 6em 2em auto 2em;
     max-width: 32em;
-
-a {
-     color: white;
-}
-    
-a:link {
-    color: white;
-}
-    
-a:visited {
-    color: white;
-}
-
-#status {
-    font-family: 0;
 }
