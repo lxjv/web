@@ -1,0 +1,13 @@
+body {
+    background: url(cdn/img/bg.JPG);
+    background-size: cover;
+}
+
+main { 
+    font-family: 'Nunito Sans', sans-serif;
+    background: rgba(241, 184, 255, 0.596);
+     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    padding: 0.1em 1em 1em 1em;
+}
