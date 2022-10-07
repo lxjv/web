@@ -4,19 +4,19 @@
             "source": "/links",
             "destination": "https://laker.omg.lol",
             "permanent": true
-        }
+        },
 
         {
             "source": "/source",
-            "destination": "https://laker.omg.lol",
+            "destination": "https://github.com/lxjv/lt",
             "permanent": true
-        }
+        },
 
         {
             "source": "/git",
-            "destination": "https://laker.omg.lol",
+            "destination": "https://github.com/lxjv",
             "permanent": true
         }
-        
+
     ]
 }
