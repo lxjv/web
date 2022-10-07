@@ -5,5 +5,18 @@
             "destination": "https://laker.omg.lol",
             "permanent": true
         }
+
+        {
+            "source": "/source",
+            "destination": "https://laker.omg.lol",
+            "permanent": true
+        }
+
+        {
+            "source": "/git",
+            "destination": "https://laker.omg.lol",
+            "permanent": true
+        }
+        
     ]
 }
