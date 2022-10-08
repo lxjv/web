@@ -18,5 +18,24 @@
             "permanent": true
         }
 
+        {
+            "source": "/pgp",
+            "destination": "https://profile.omg.lol/laker/key",
+            "permanent": true
+        }
+
+        {
+            "source": "/discord",
+            "destination": "https://discord.gg/JwPgH3zQ7y",
+            "permanent": true
+        }
+
+        {
+            "source": "/ssh",
+            "destination": "https://raw.githubusercontent.com/lxjv/lxjv/main/SSHkey.pub",
+            "permanent": true
+        }
+
+
     ]
 }
