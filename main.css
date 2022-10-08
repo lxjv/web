@@ -36,6 +36,11 @@ main {
     max-width: 14em;
 }
 
+#webring-wrapper {
+padding: 1em 0 0.5em 0;
+}
+
+
 a[href] {
 
     color: #000000;
