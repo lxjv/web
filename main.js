@@ -1,5 +1,5 @@
 
-// pronouns
+// pronouns.page integration
 
 function pronouns(data) {
     document.getElementById("pronouns").innerHTML = '('+data.profiles.en.pronouns[0].value+')';

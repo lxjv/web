@@ -1,19 +1,43 @@
 body {
-    background: url(cdn/img/bg.JPG);
+    background: #fff8e7;
     background-size: cover;
 }
 
 main { 
     font-family: 'Nunito Sans', sans-serif;
-    background: rgba(241, 184, 255, 0.596);
+    background: #bac8ff;
+     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+
+    border-radius: 1em;
+
+    font-size: 135%;
+    
+    padding: 0.1em 1em 1em 1em;
+    margin: 1em 2em auto 2em;
+    max-width: 32em;
+}
+
+/* extra css for divs :D */
+
+#footer {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #ced4da;
      -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     
     border-radius: 1em;
 
-    font-size: 175%;
+    font-size: 135%;
     
-    padding: 0.1em 1em 1em 1em;
-    margin: 6em 2em auto 2em;
-    max-width: 32em;
+    padding: 0.1em 0 0.5em 1em;
+    margin: 2em 2em auto 2em;
+    max-width: 14em;
+}
+
+a[href] {
+
+    color: #000000;
+
 }
