@@ -16,19 +16,19 @@
             "source": "/git",
             "destination": "https://github.com/lxjv",
             "permanent": true
-        }
+        },
 
         {
             "source": "/pgp",
             "destination": "https://profile.omg.lol/laker/key",
             "permanent": true
-        }
+        },
 
         {
             "source": "/discord",
             "destination": "https://discord.gg/JwPgH3zQ7y",
             "permanent": true
-        }
+        },
 
         {
             "source": "/ssh",
