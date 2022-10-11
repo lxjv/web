@@ -29,6 +29,8 @@ footer {
 
     font-size: 135%;
     text-align: center;
+
+    padding-top: 6px;
     
     padding: 0.5em auto auto auto;
     margin: 4em 2em auto 2em;
@@ -82,7 +84,23 @@ padding: 0.25em 0 0.5em 0;
 }
 
 a[href] {
-
     color: #000000;
 
+}
+
+#notice {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #ced4da;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    font-size: 135%;
+
+
+    border-radius: 1em;
+    text-align: center;
+
+    padding: 1em auto;
+    margin: 1em 2em auto 2em;
+    max-width: 32em;
 }
