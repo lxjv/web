@@ -19,9 +19,7 @@ main {
     max-width: 32em;
 }
 
-/* extra css for divs :D */
-
-#footer {
+footer {
     font-family: 'Nunito Sans', sans-serif;
     background: #ced4da;
      -webkit-backdrop-filter: blur(10px);
@@ -30,10 +28,49 @@ main {
     border-radius: 1em;
 
     font-size: 135%;
+    text-align: center;
     
-    padding: 0.1em 0 0.5em 1em;
-    margin: 2em 2em auto 2em;
-    max-width: 14em;
+    padding: 0.5em auto auto auto;
+    margin: 4em 2em auto 2em;
+    max-width: 8em;
+}
+
+/* extra css for divs :D */
+
+#things {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #ffdeeb;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    font-size: 135%;
+
+    border-radius: 1em;
+
+    padding: 0.1em 1em 1em 1em;
+    margin: 1em 2em auto 2em;
+    max-width: 32em;
+}
+
+#exp {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #bac8ff;
+     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+    font-size: 135%;
+
+    border-radius: 1em;
+    
+    padding: 0.1em 1em 1em 1em;
+    margin: 1em 2em auto 2em;
+    max-width: 32em;
+}
+
+#omgerlol {
+    background: #f3d9fa;
+    border-radius: 1em;
+    padding: 0.1em 1em 1em 1em;
 }
 
 #webring-wrapper {
