@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #fff8e7;
     background-size: cover;
@@ -34,12 +38,20 @@ footer {
     
     padding: 0.5em auto auto auto;
     margin: 4em 2em auto 2em;
-    max-width: 8em;
+    max-width: 16em;
 }
 
 /* extra css for divs :D */
 
-#things {
+#info {
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 0.1em 1em 1em 1em;
+    margin: 1em 2em auto 2em;
+}
+
+.status {
     font-family: 'Nunito Sans', sans-serif;
     background: #ffdeeb;
     -webkit-backdrop-filter: blur(10px);
@@ -48,10 +60,13 @@ footer {
     font-size: 135%;
 
     border-radius: 1em;
-
+    
     padding: 0.1em 1em 1em 1em;
-    margin: 1em 2em auto 2em;
-    max-width: 32em;
+    /*margin: 1em 2em auto 2em;*/
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(50%);
 }
 
 #exp {
