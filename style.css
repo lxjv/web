@@ -52,7 +52,7 @@ a[href] {
 }
 
 #waka-w {
-	margin: 1em;
+	margin: 0.25em auto 0.75em auto;
 }
 
 #feed {
