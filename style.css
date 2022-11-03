@@ -4,7 +4,7 @@ body {
 	font-size: 1rem;
 	font-family: 'Cousine', monospace;
 	padding-left: 0.4em;
-	max-width: 10em;
+	max-width: 35%;
 }
 
 #name {
@@ -14,7 +14,7 @@ body {
 
 #help {
 	background-color: #ffd900;
-	color: #000;
+	color: rgb(0, 0, 0);
 	padding: 1rem 1rem 1rem 1rem;
 	max-width: 10em;
 }
