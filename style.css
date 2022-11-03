@@ -7,9 +7,8 @@ body {
 	max-width: 45%;
 }
 
-#name {
-	font-size: 1.2em;
-	font-family: 'Cousine', monospace;
+#name h2 {
+	font-family: 'Cousine', italic;
 }
 
 #help {
