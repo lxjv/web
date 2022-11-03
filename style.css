@@ -1,10 +1,13 @@
 body {
 	background: #212936;
 	color: #fff8e7;
-	font-size: 1rem;
+	font-size: 1.1em;
 	font-family: 'Cousine', monospace;
 	padding-left: 0.4em;
-	max-width: 45%;
+}
+
+a[href] {
+	color: #fff8e7;
 }
 
 #name h2 {
@@ -15,8 +18,23 @@ body {
 	background-color: #ffd900;
 	color: rgb(0, 0, 0);
 	padding: 1rem 1rem 1rem 1rem;
+	max-width: fit-content;
 }
 
 #waka {
 	padding-top: 1em;
+}
+
+#status {
+	padding: 1rem 1rem 1rem 1rem;
+	background: rgba(117, 72, 108, 0.26);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border-radius: 1rem;
+}
+
+
+#status h3 {
+	padding-top: 0;
+	padding-bottom: 0;
 }

@@ -1,4 +1,4 @@
-{
+{  
     "redirects": [
         {
             "source": "/links",
@@ -30,5 +30,8 @@
             "permanent": true
         }
 
-    ]
+    ],
+
+    "cleanUrls": true
 }
+
