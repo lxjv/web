@@ -18,6 +18,10 @@ body {
 	padding: 1rem 1rem 1rem 1rem;
 }
 
+#status {
+	font-family: 0;
+}
+
 #waka {
 	padding-top: 1em;
 }
