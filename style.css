@@ -2,46 +2,5 @@ body {
 	background: #212936;
 	color: #fff8e7;
 	font-size: 2em;
-	margin: 0;
-
 	font-family: 'Nunito Sans', sans-serif;
-}
-
-main {
-}
-
-a[href] {
-	color: #fff8e7;
-}
-
-
-
-.box {
-	padding: 1em;
-	background: #254042;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 100%;
-	border-radius: 1em;
-}
-
-#bio h1 {
-	margin-top: 0;
-}
-
-#colophon {
-	margin-top: 0;
-}
-
-#txtright {
-	text-align: right;
-}
-
-#waka-w {
-	margin: 0.25em auto 0.75em auto;
-}
-
-#feed {
-	background-color: #212936;
-	text-size: 65%;
 }
