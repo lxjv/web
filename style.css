@@ -4,7 +4,7 @@ body {
 	font-size: 1rem;
 	font-family: 'Cousine', monospace;
 	padding-left: 0.4em;
-	max-width: 35%;
+	max-width: 45%;
 }
 
 #name {
@@ -16,10 +16,6 @@ body {
 	background-color: #ffd900;
 	color: rgb(0, 0, 0);
 	padding: 1rem 1rem 1rem 1rem;
-}
-
-#status {
-	font-family: 0;
 }
 
 #waka {
