@@ -22,7 +22,7 @@ a[href] {
 }
 
 #waka {
-	padding-top: 1em;
+	padding-top: 1em 0 1em 0;
 }
 
 #status {
