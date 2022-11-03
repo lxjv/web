@@ -3,6 +3,7 @@ body {
 	color: #fff8e7;
 	font-size: 1rem;
 	font-family: 'Cousine', monospace;
+	padding-left: 0.1em;
 }
 
 #name {
