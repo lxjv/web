@@ -15,6 +15,7 @@ body {
 	background-color: #ffd900;
 	color: #000;
 	padding: 1rem 1rem 1rem 1rem;
+	max-width: 5em;
 }
 
 #wakatime {
