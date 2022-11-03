@@ -8,19 +8,13 @@
 
         {
             "source": "/source",
-            "destination": "https://github.com/lxjv/lt",
+            "destination": "https://github.com/lxjv/web",
             "permanent": true
         },
 
         {
             "source": "/git",
             "destination": "https://github.com/lxjv",
-            "permanent": true
-        },
-
-        {
-            "source": "/pgp",
-            "destination": "https://profile.omg.lol/laker/key",
             "permanent": true
         },
 
@@ -34,14 +28,7 @@
             "source": "/news",
             "destination": "https://buttondown.email/la",
             "permanent": true
-        },
-
-        {
-            "source": "/ssh",
-            "destination": "https://raw.githubusercontent.com/lxjv/lxjv/main/SSHkey.pub",
-            "permanent": true
         }
-
 
     ]
 }
