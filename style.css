@@ -11,32 +11,9 @@ a[href] {
 	background-color: #252e3c;
 }
 
-#name h2 {
-	font-family: 'Cousine', italic;
-}
-
-#help {
-	background-color: #ffd900;
-	color: rgb(0, 0, 0);
-	padding: 1rem 1rem 1rem 1rem;
-	max-width: fit-content;
-}
-
-#waka {
-	padding-top: 1em 0 1em 0;
-}
-
 #status {
-	padding: 1rem 1rem 1rem 1rem;
+	padding: 1rem 1rem 1rem 1rem; 
 	background: rgba(117, 72, 108, 0.26);
-	-webkit-backdrop-filter: blur(10px);
-	backdrop-filter: blur(10px);
 	border-radius: 1rem;
 	max-width: fit-content;
-}
-
-
-#status h3 {
-	padding-top: 0;
-	padding-bottom: 0;
 }
