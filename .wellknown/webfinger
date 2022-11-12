@@ -1,0 +1,23 @@
+{
+  "subject": "acct:la@social.lol",
+  "aliases": [
+    "https://social.lol/@la",
+    "https://social.lol/users/la"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://social.lol/@la"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://social.lol/users/la"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://social.lol/authorize_interaction?uri={uri}"
+    }
+  ]
+}
