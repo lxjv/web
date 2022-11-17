@@ -11,10 +11,13 @@ a[href] {
 	background-color: #252e3c;
 }
 
-#status {
-	padding: 1rem 1rem 1rem 1rem; 
-	background: rgba(117, 72, 108, 0.26);
+.box {
+	padding: 1rem 1rem 1rem 1rem;
 	border-radius: 1rem;
 	max-width: fit-content;
+}
+
+#status {
+	background: rgba(117, 72, 108, 0.26);
 }
 
