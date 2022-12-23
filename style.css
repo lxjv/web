@@ -1,14 +1,15 @@
-body {
+html {
 	background: #212936;
 	color: #fff8e7;
-	font-size: 1.1em;
-	font-family: 'Cousine', monospace;
-	padding-left: 0.4em;
+
+	font-size: 1.4em;
+	font-family: 'Mona Sans';
+	/*padding-left: 0.8em;*/
 }
 
 a[href] {
 	color: #fff8e7;
-	background-color: #252e3c;
+	text-decoration: dashed !important;
 }
 
 #status {
@@ -16,5 +17,14 @@ a[href] {
 	background: rgba(117, 72, 108, 0.26);
 	border-radius: 1rem;
 	max-width: fit-content;
+	font-weight: 400 500 900;
+	font-stretch: 75% 125%;
 }
 
+
+@font-face {
+	font-family: 'Mona Sans';
+	src:
+		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2 supports variations'),
+		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2-variations');
+}
