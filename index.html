@@ -8,6 +8,7 @@
 <title>laker j.v turner</title>
 <meta name="description" content="Hello! I’m Laker, a 17 year old trans woman from the UK.">
 
+<link rel="me" href="https://social.dino.icu/@la">
 
 <script src="https://kit.fontawesome.com/a4ad01e3e6.js" crossorigin="anonymous"></script>
 <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
@@ -16,11 +17,23 @@
 <style>
 @import url('style.css');
 
-body {
+@media screen and (min-width: 600px) {
+	
+	body {
 	padding: 3em;
 	margin-left: 1.5rem;
 	border-radius: 1em;
   	padding: 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	body {
+	padding: 3em;
+	border-radius: 1em;
+  	padding: 10px;
+	}
 }
 </style>
 </head>
@@ -28,20 +41,23 @@ body {
 <main>
 
 <header style="padding: 0px; margin: 0px; line-height: 100%;">
-	<h1>laker j.v turner</h1> <i class="fa-solid fa-rainbow"></i>
+	<h1>laker j.v turner <i class="fa-solid fa-rainbow"></i></h1>
 	<h4><span id="pronouns"></span></h4>
 </header>
 
 <p>i write, program, and take photos</p>
 
-<nav>
+<nav style="margin-bottom: 1em;">
 	<a href="/about">About</a> |
 	<a href="https://concorde.blog">Blog</a> |
 	<a href="/places">Links</a> |
-	<a href="/contact">Contact</a> | 
-
-	<a rel="me" href="https://social.dino.icu/@la">Mastodon</a>
+	<a href="/contact">Contact</a>
 </nav>
+
+<div id="status">
+	<script src="https://status.lol/laker.js?fluent&time&link"></script><br>
+<a href="https://status.lol/laker">Statuslog</a> - <a href="https://concorde.blog/now">Now page</a>
+</div>
 </main>
 
 </body>
