@@ -4,12 +4,16 @@ html {
 
 	font-size: 1.4em;
 	font-family: 'Mona Sans';
-	/*padding-left: 0.8em;*/
 }
 
 a[href] {
 	color: #fff8e7;
 	text-decoration: dashed !important;
+}
+
+.box {
+	padding: 15px;
+	border-radius: 1em;
 }
 
 #status {
