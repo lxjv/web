@@ -52,4 +52,5 @@ a[href] {
 	src:
 		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2 supports variations'),
 		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2-variations');
+	font-display: swap;
 }
