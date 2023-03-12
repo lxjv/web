@@ -1,28 +1,32 @@
+==================================================================
+https://keybase.io/lxjv
+--------------------------------------------------------------------
+
 I hereby claim:
 
   * I am an admin of https://laker.tech
   * I am lxjv (https://keybase.io/lxjv) on keybase.
-  * I have a public key ASAhp60LdJAYsqAu0f8ARyG8e6Iv7giZ0U-mi4PhMJrT3wo
+  * I have a public key ASD6Jg-_UEF_cgvVEHdV-DRwPR3gvJRIYidInP47sg42MAo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "012058d281338d3d8a1c1b1c10d73de68ce00ac75b7652a763ed44e3802209291aea0a",
+      "eldest_kid": "0120fa260fbf50417f720bd5107755f834703d1de0bc94486227489cfe3bb20e36300a",
       "host": "keybase.io",
-      "kid": "012021a7ad0b749018b2a02ed1ff004721bc7ba22fee0899d14fa68b83e1309ad3df0a",
+      "kid": "0120fa260fbf50417f720bd5107755f834703d1de0bc94486227489cfe3bb20e36300a",
       "uid": "0ce6469ed8e4e0592e5596fed63d8a19",
       "username": "lxjv"
     },
     "merkle_root": {
-      "ctime": 1671802327,
-      "hash": "a0c7e7735e5a14a2901c4e551c4b051a71e1c461b2cf35e1420c31ccf59b02d1941b637c1ffa1b8e2ac4f2428068f1513bf2e0d9cb8a3e262af54dc8fb1ccbd3",
-      "hash_meta": "8ffc70bfee2183ee270cc586134cfb7d8347bae8511d17505f0b2afcdc57cc0a",
-      "seqno": 23758925
+      "ctime": 1678580971,
+      "hash": "1693d037ad0b414ba0f2e2a53ed54080690097e541ce579eec1fb90b181f6555ad1e5cfbbd986223ff68f026e9cf2cfbd158dcad4e74759c020500b594d146a6",
+      "hash_meta": "e6a2f285286469ec90e30428604292b21ceb98fcd2e66661d2ca840d1f043c06",
+      "seqno": 24182451
     },
     "service": {
-      "entropy": "56VZihVLcQ6Rl3iVYbkxDro8",
+      "entropy": "qlD5qqzbYt2C9CMs7LbMqqok",
       "hostname": "laker.tech",
       "protocol": "https:"
     },
@@ -33,18 +37,20 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "6.0.2"
   },
-  "ctime": 1671802375,
+  "ctime": 1678580989,
   "expire_in": 504576000,
-  "prev": "81dd65fe67cfb9cddc56babc408a05e6af41c4c8040218c82713d803e0afd96a",
-  "seqno": 83,
+  "prev": "7f5ee1ce8a9844a032d980009727e72b314b879e46f9602ddecd435bfcc537cc",
+  "seqno": 102,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgIaetC3SQGLKgLtH/AEchvHuiL+4ImdFPpouD4TCa098Kp3BheWxvYWTESpcCU8Qggd1l/mfPuc3cVrq8QIoF5q9BxMgEAhjIJxPYA+Cv2WrEIB8oesNEWKLun73ygEE0V5+VC7rTNKm3ZaxqXBNC3vJCAgHCo3NpZ8RAdR97J3gDb9fbY5rEtGIp3LzrfmUZOZ7/brIslem+WKO76yNlSeKHLBVd0I+TwQ9hCegGgHNuaR6zP3yPbddiA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIO0F5eExK84rFhDehFZSuabpOuRVcamxMPBMLJK5h3Qeo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+iYPv1BBf3IL1RB3Vfg0cD0d4LyUSGInSJz+O7IONjAKp3BheWxvYWTESpcCZsQgf17hzoqYRKAy2YAAlyfnKzFLh55G+WAt3s1DW/zFN8zEIAi4BGO2DVnpeRaPlJvQmWs+q8NYvt14elgBEEuYvGSPAgHCo3NpZ8RA/ahvgPs+ytswkTxsMI+z1uBixlCklhufJV8a58vU6QvGk/yePZZTo6+tqs9+g96w4rEoN0/MWiconyql5nxbBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIA8z8sDuaOG9O7RFMdDRHvSHC7P4A0HCCB0v+KccPEBho3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/lxjv
+
+==================================================================
