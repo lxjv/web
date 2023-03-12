@@ -14,21 +14,45 @@
     <style>
     @import url('style.css');
     
-    sup {
-        float:inline-end
+    .infobox {
+    padding: 0.5rem 1rem 1rem 1rem;
+	background: rgba(117, 72, 108, 0.26);
+	border-radius: 1rem;
+	max-width: fit-content;
+	font-weight: 400 500 900;
+	font-stretch: 75% 125%;
     }
-
     </style>
     <script defer src="main.js"></script>
 </head>
 
-<h1>Keys and Encryption</h1>
-<h2><a href="/">back</a></h2>
+<h1>Keys and Encryption - <a href="/">back</a> </h1>
 
-<h2>PGP / GPG</h2>
+<div class="infobox" style="background-color: darkslategray">
+    <h2>PGP</h2>
+<ul>
+    <h3>la@laker.gay</h3>
+    <li>Fingerprint: <code>7C9BF6389B46387C52FE8539ED9A8458982B737D</code></li>
+    <li>Comment: "This is my main PGP key."</li>
+    <li>Download: <a href="/cdn/keys/gpg/main.asc">.asc file</a> or <a href="/cdn/keys/gpg/main.txt">.txt file</a></li>
+</ul>
 
-<h3>la@laker.gay</h3>
+<ul>
+    <h3>git@laker.gay</h3>
+    <li>Fingerprint: <code>B2179E69C4FF8F53FBF78BC90F6CA74EFD8BE013</code></li>
+    <li>Comment: "This is my Git PGP key. Don't use this for anything else."</li>
+    <li>Download: <a href="/cdn/keys/gpg/git.asc">.asc file</a> or <a href="/cdn/keys/gpg/git.txt">.txt file</a></li>
+</ul>
+</div>
 
-
-<h2>Services</h2>
-<p><a href="https://keybase.io/lxjv">Keybase</a> && <a href="https://keyoxide.org/hkp/la%40laker.gay">Keyoxide</a</p>
+<div class="infobox" style="margin-top: 1rem;">
+<h3>SSH</h3>
+    <li>This is my main (and soon to be only) SSH key.</li>
+    <li><code>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM1eDPAc/Ue0mSnxYkERSMV82LkJytWkmJqqxGYTE9th</code>
+</ul>
+</div>
+<ul class="infobox">
+    <h2>other keys</h2>
+minisign: <code>RWQMjhfFr67BBxgJMQIearuo9Bzj/ngpnIOrOhcbEKU2WFkY3BF+bljs</code></li>
+age: <code>age1jvh7lvctpw7rf3j9get8d2tskex0qnz8t2frakaltdlapmh5pv0qsxagp</code></li>
+</ul>

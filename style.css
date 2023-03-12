@@ -8,11 +8,10 @@ html {
 
 a[href] {
 	color: #fff8e7;
-	text-decoration: dashed !important;
 }
 
 .box {
-	padding: 15px;
+	padding-top: 15px;
 	border-radius: 1em;
 }
 
@@ -24,6 +23,7 @@ a[href] {
 	font-weight: 400 500 900;
 	font-stretch: 75% 125%;
 }
+
 /* fake responsive design */
 
 @media screen and (min-width: 600px) {
