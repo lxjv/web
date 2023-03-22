@@ -15,15 +15,6 @@ a[href] {
 	border-radius: 1em;
 }
 
-#status {
-	padding: 1rem 1rem 1rem 1rem; 
-	background: rgba(117, 72, 108, 0.26);
-	border-radius: 1rem;
-	max-width: fit-content;
-	font-weight: 400 500 900;
-	font-stretch: 75% 125%;
-}
-
 /* fake responsive design */
 
 @media screen and (min-width: 600px) {
