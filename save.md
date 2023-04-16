@@ -1,0 +1,1 @@
+<h4>current status: <script defer src="https://status.lol/laker.js"></script></h4>
