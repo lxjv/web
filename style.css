@@ -3,7 +3,7 @@ html {
 	color: #fff8e7;
 
 	font-size: 1.4em;
-	font-family: 'Mona Sans';
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Helvetica, cantarell, ubuntu, roboto, noto, sans-serif;
 }
 
 a[href] {
@@ -34,14 +34,4 @@ a[href] {
 		border-radius: 1em;
 		padding: 10px;
 	}
-}
-
-/* fonts! */
-
-@font-face {
-	font-family: 'Mona Sans';
-	src:
-		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2 supports variations'),
-		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2-variations');
-	font-display: swap;
 }
