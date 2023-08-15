@@ -1,18 +1,48 @@
+@import url(https://fonts.bunny.net/css?family=ibm-plex-mono:400,700i);
 html {
-	background: #212936;
+	background: #6867AA;
 	color: #fff8e7;
 
-	font-size: 1.4em;
-	font-family: 'Mona Sans';
+	font-size: 1.1em;
+	font-family: 'IBM Plex Mono', monospace;
+	
+}
+
+header {
+	margin-bottom: 1.3rem;
+	font-style: italic;
+	font-size: 1.47em;
+
 }
 
 a[href] {
 	color: #fff8e7;
+
 }
 
 .box {
-	padding-top: 15px;
-	border-radius: 1em;
+	margin-top: 0.5rem;
+	width: fit-content;
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+
+}
+
+.box p {
+	margin: 0;
+
+}
+
+/* colour */
+
+.blue {
+	background: #8797E0;
+}
+
+.orange {
+	background: #dc774f;
+	color: #0D0C0B;
+
 }
 
 /* fake responsive design */
@@ -34,14 +64,4 @@ a[href] {
 		border-radius: 1em;
 		padding: 10px;
 	}
-}
-
-/* fonts! */
-
-@font-face {
-	font-family: 'Mona Sans';
-	src:
-		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2 supports variations'),
-		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2-variations');
-	font-display: swap;
 }
