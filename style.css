@@ -33,6 +33,14 @@ a[href] {
 
 }
 
+code {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 0.9em;;
+	padding: 0.2rem;
+	border-radius: 0.2rem;
+
+}
+
 /* colour */
 
 .blue {
@@ -42,6 +50,11 @@ a[href] {
 
 .orange {
 	background: #dc774f;
+	color: #0D0C0B;
+
+}
+
+.orange a[href] {
 	color: #0D0C0B;
 
 }
