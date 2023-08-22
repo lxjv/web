@@ -35,9 +35,14 @@ a[href] {
 
 code {
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 0.9em;;
+	font-size: 0.9em;
 	padding: 0.2rem;
 	border-radius: 0.2rem;
+
+}
+
+.box h3 {
+	margin-top: 0;
 
 }
 
@@ -59,23 +64,31 @@ code {
 
 }
 
-/* fake responsive design */
+/* WOOOOO DARK MODE */
 
-@media screen and (min-width: 600px) {
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #0D0C0B;
+		color: #fff8e7;
 
-	body {
-		padding: 3em;
-		margin-left: 1.5rem;
-		border-radius: 1em;
-		padding: 10px;
 	}
-}
 
-@media screen and (max-width: 600px) {
+	a[href] {
+		color: #fff8e7;
 
-	body {
-		padding: 3em;
-		border-radius: 1em;
-		padding: 10px;
 	}
-}
+
+	.blue {
+		background: #8797e059;
+	}
+
+	.orange {
+		background: #dc774f51;
+		color: #fff8e7;
+	}
+
+	.orange a[href] {
+		color: #fff8e7;
+	}
+
+}	
