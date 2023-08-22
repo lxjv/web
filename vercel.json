@@ -26,7 +26,7 @@
 
         {
             "source": "/news",
-            "destination": "https://buttondown.email/la",
+            "destination": "https://buttondown.email/forever",
             "permanent": true
         }
 
