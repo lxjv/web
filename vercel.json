@@ -20,7 +20,25 @@
 
         {
             "source": "/discord",
-            "destination": "https://discord.gg/JwPgH3zQ7y",
+            "destination": "https://discord.gg/mcpsEvwsd4",
+            "permanent": true
+        },
+
+		{
+            "source": "/bluesky",
+            "destination": "https://bsky.app/profile/laker.gay",
+            "permanent": true
+        },
+
+		{
+            "source": "/steam",
+            "destination": "https://steamcommunity.com/id/lxjv",
+            "permanent": true
+        },
+
+		{
+            "source": "/pronouns",
+            "destination": "https://en.pronouns.page/u/laker",
             "permanent": true
         },
 
