@@ -15,6 +15,11 @@ header {
 
 }
 
+main {
+	padding: 0 1rem;
+
+}
+
 a[href] {
 	color: #fff8e7;
 
@@ -68,7 +73,7 @@ code {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		background: #0D0C0B;
+		background: #170733;
 		color: #fff8e7;
 
 	}
