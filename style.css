@@ -1,47 +1,99 @@
+@import url(https://fonts.bunny.net/css?family=ibm-plex-mono:400,700i);
 html {
-	background: #212936;
+	background: #6867AA;
 	color: #fff8e7;
 
-	font-size: 1.4em;
-	font-family: 'Mona Sans';
+	font-size: 1.1em;
+	font-family: 'IBM Plex Mono', monospace;
+	
+}
+
+header {
+	margin-bottom: 1.3rem;
+	font-style: italic;
+	font-size: 1.47em;
+
+}
+
+main {
+	padding: 0 1rem;
+
 }
 
 a[href] {
 	color: #fff8e7;
+
 }
 
 .box {
-	padding-top: 15px;
-	border-radius: 1em;
+	margin-top: 0.5rem;
+	width: fit-content;
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+
 }
 
-/* fake responsive design */
+.box p {
+	margin: 0;
 
-@media screen and (min-width: 600px) {
+}
 
-	body {
-		padding: 3em;
-		margin-left: 1.5rem;
-		border-radius: 1em;
-		padding: 10px;
+code {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 0.9em;
+	padding: 0.2rem;
+	border-radius: 0.2rem;
+
+}
+
+.box h3 {
+	margin-top: 0;
+
+}
+
+/* colour */
+
+.blue {
+	background: #8797E0;
+	
+}
+
+.orange {
+	background: #dc774f;
+	color: #0D0C0B;
+
+}
+
+.orange a[href] {
+	color: #0D0C0B;
+
+}
+
+/* WOOOOO DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #170733;
+		color: #fff8e7;
+
 	}
-}
 
-@media screen and (max-width: 600px) {
+	a[href] {
+		color: #fff8e7;
 
-	body {
-		padding: 3em;
-		border-radius: 1em;
-		padding: 10px;
 	}
-}
 
-/* fonts! */
+	.blue {
+		background: #8797e059;
+	}
 
-@font-face {
-	font-family: 'Mona Sans';
-	src:
-		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2 supports variations'),
-		url('/cdn/fonts/mona/Mona-Sans.woff2') format('woff2-variations');
-	font-display: swap;
-}
+	.orange {
+		background: #dc774f51;
+		color: #fff8e7;
+	}
+
+	.orange a[href] {
+		color: #fff8e7;
+	}
+
+}	
