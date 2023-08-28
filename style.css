@@ -51,6 +51,12 @@ code {
 
 }
 
+h2 {
+	font-style: italic;
+	font-size: 1.47em;
+	margin: 0rem 0 0.7rem 0;
+}
+
 /* colour */
 
 .blue {
